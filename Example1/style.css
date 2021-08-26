@@ -270,6 +270,7 @@ body {
 }
 
 .rcm2 .bd ul li {
+    position: relative;
     float: left;
     height: 270px;
     width: 228px;
@@ -278,8 +279,14 @@ body {
     margin-bottom: 15px;
 }
 
-.rcm2 .bd ul li img {
+.rcm2 .bd ul li a img {
     width: 100%;   
+}
+
+.rcm2 .bd ul li em {
+    position: absolute;
+    right: -3px;
+    top: 5px;
 }
 
 .rcm2 .bd ul li h4 {
@@ -301,6 +308,7 @@ body {
 }
 
 .footer {
+    margin-top: 200px;
     height: 300px;
     background-color: #fff;
 }
