@@ -34,8 +34,12 @@ body {
 }
 
 .header{
+    background-color: #f3f5f7;
+    position: sticky;
+    top: 0px;
     height: 42px;
     margin: 30px auto;
+    z-index: 10;
 }
 
 .logo {
