@@ -371,3 +371,13 @@ body {
 .footer .w .links dl dd a:hover {
     color: blue;
 }
+
+.sb {
+    background-color: lightgreen;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: 600px;
+    height: 150px;
+    width: 50px;
+}
