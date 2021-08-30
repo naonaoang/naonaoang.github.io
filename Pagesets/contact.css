@@ -64,51 +64,44 @@ li {
     color: orange;
 }
 
-.greeting {
+.main {
+	width: 45em;
+	height: 20em;
+    text-align: center;
+	line-height: 2;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 75px;
+    margin-top: -10em;
+    margin-left: -22.5em;
 }
 
-.center-button {
+.title {
 	display: block;
-	margin: 0.5em auto;
-	border: white solid 0.07em;
-	border-radius: 2em;
+	font-size: 2em;
+	margin: 0;
+}
+p {
+	display: inline;
+	font-size: 1.25em;
+}
+
+.email-me {
+	display: block;
+	width: 10em;
+	margin: 20px auto;
+	border: white solid 2px;
+	border-radius: 15px;
 	color: white;
 	background-color: black;
-	font-size: 0.45em;
-	padding: 0.5em;
+	font-size: 1.25em;
+	padding: 15px;
 	transition: 1.5s;
-	visibility: hidden;
-
-	animation: displayButton 2s;
-	animation-delay: 7s;
-	-webkit-animation: displayButton 2s;
-	-webkit-animation-delay: 7s;
+	text-decoration: none;
 }
 
-@keyframes displayButton {
-	from {opacity: 0}
-	to {opacity: 100%}
-}
-@-webkit-keyframes displayButton {
-	from {opacity: 0}
-	to {opacity: 100%}
-}
-
-.center-button:hover {
+.email-me:hover {
 	color: black;
 	background-color: white;
 	cursor: pointer;
-}
-
-.gitlogo {
-	position: absolute;
-	height: 1.5em;
-	width: 1.5em;
-	top: 95%;
-	left: 95%;
 }

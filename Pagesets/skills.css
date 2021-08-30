@@ -64,51 +64,60 @@ li {
     color: orange;
 }
 
-.greeting {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 75px;
-}
-
-.center-button {
-	display: block;
-	margin: 0.5em auto;
-	border: white solid 0.07em;
-	border-radius: 2em;
-	color: white;
-	background-color: black;
-	font-size: 0.45em;
-	padding: 0.5em;
-	transition: 1.5s;
-	visibility: hidden;
-
-	animation: displayButton 2s;
-	animation-delay: 7s;
-	-webkit-animation: displayButton 2s;
-	-webkit-animation-delay: 7s;
-}
-
-@keyframes displayButton {
-	from {opacity: 0}
-	to {opacity: 100%}
-}
-@-webkit-keyframes displayButton {
-	from {opacity: 0}
-	to {opacity: 100%}
-}
-
-.center-button:hover {
-	color: black;
-	background-color: white;
-	cursor: pointer;
-}
-
-.gitlogo {
+.flaticon {
 	position: absolute;
-	height: 1.5em;
-	width: 1.5em;
-	top: 95%;
-	left: 95%;
+	top: 96%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-size: large;
+	color: white;
+}
+
+.flaticon a {
+    color: white;
+    text-decoration: underline;
+}
+
+.main ul {
+    height: 600px;
+    width: 990px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -500px;
+    margin-top: -295px;
+}
+
+.main ul li {
+    position: relative;
+    float: left;
+    height: 200px;
+    width: 330px;
+}
+
+.main ul li img {
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    top: 50%;
+    margin-top: -75px;
+    height: 150px;
+    width: 150px;
+}
+
+.main ul li .mask {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.75);
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.main ul li:hover .mask{
+    display: block;
 }

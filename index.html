@@ -1,41 +1,41 @@
 ﻿<!DOCTYPE html>
 
-<html lang="zh-CN" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta charset="utf-8" />
-    <style type="text/css">@import "index.css";</style>
-    <title>您完全不拉屎是吗</title>
+    <style type="text/css">
+        @import "index.css";
+    </style>
+    <title>Gavin's Index</title>
+    <script src="index.js"></script>
 </head>
 
 <body>
-    <h1><strong>我想拉屎!</strong></h1>
-
-    <div class="con1">
-        <a href="https://gmgard.com/" target="#"><img class="img1" src="image/index/img1.jpg" alt="Image1 not showing"
-                title="臭"></a>
-        <a href="Example1/ex1_index.html" target="#"><img class="img2" src="image/index/img2.gif"
-                alt="Image2 not showing"></a>
+    <div class="header">
+        <div class="icon">
+            <a href="https://naonaoang.github.io">Gavin Zhou</a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="Pagesets/contact.html">Contact</a></li>
+                <li><a href="Pagesets/projects.html">My Projects</a></li> 
+                <li><a href="Pagesets/skills.html">Skills</a></li>
+                <li><a href="Pagesets/about.html">About Me</a></li>
+            </ul>
+        </div>
     </div>
-
-    <!-- <table id = "table1" border="1" cellspacing = "0">
-            <tr><th>今天拉了吗</th></tr>
-            <tr><td>拉了</td><td>没拉</td></tr>
-        </table> -->
-
-    <button class="my_button" onclick="lashi2()">拉屎</button>
-
-    <div id="la"></div>
-
-    <script>
-        function lashi() {
-            console.log("拉屎好舒服啊");
-        }
-        function lashi2() {
-            var container = document.getElementById("la");
-            container.innerHTML = container.innerHTML + '<img class = "img3" src="image/index/shi.png" alt="Image2 not showing">';
-        }
-    </script>
+    <div class="greeting">
+        <div id="greeting-1" class="greeting-1">
+        </div>
+        <div id="greeting-2" class="greeting-2">
+        </div>
+        <button id="me-button" type="button" class="center-button" onclick="window.location.href='Pagesets/about.html'">About
+            Me</button>
+    </div>
+    <a href="https://github.com/naonaoang" target="#">
+        <img class="gitlogo" src="image/gitlogo.png" alt="github">
+    </a>
 </body>
 
 </html>

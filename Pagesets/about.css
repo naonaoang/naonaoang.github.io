@@ -64,51 +64,21 @@ li {
     color: orange;
 }
 
-.greeting {
+.main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 75px;
+    height: 300px;
+    width: 900px;
+    margin-left: -450px;
+    margin-top: -150px;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 1.5em;
 }
 
-.center-button {
-	display: block;
-	margin: 0.5em auto;
-	border: white solid 0.07em;
-	border-radius: 2em;
-	color: white;
-	background-color: black;
-	font-size: 0.45em;
-	padding: 0.5em;
-	transition: 1.5s;
-	visibility: hidden;
-
-	animation: displayButton 2s;
-	animation-delay: 7s;
-	-webkit-animation: displayButton 2s;
-	-webkit-animation-delay: 7s;
-}
-
-@keyframes displayButton {
-	from {opacity: 0}
-	to {opacity: 100%}
-}
-@-webkit-keyframes displayButton {
-	from {opacity: 0}
-	to {opacity: 100%}
-}
-
-.center-button:hover {
-	color: black;
-	background-color: white;
-	cursor: pointer;
-}
-
-.gitlogo {
-	position: absolute;
-	height: 1.5em;
-	width: 1.5em;
-	top: 95%;
-	left: 95%;
+.main img {
+    float: left;
+    height: 300px;
+    margin-right: 20px;
 }
